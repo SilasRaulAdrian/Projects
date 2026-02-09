@@ -1,99 +1,67 @@
 # Code to Image App
 
-## Technical Overview
+A frontend web application that allows users to convert code snippets into styled images for easy sharing.
 
-Code to Image is a **frontend utility application** built with **React**, designed to demonstrate skills such as controlled inputs, state-driven rendering, third-party library integration, and canvas/image generation in the browser. The application allows users to convert code snippets into shareable images.
+---
 
-## Functional Scope
+## Overview
 
-* Input and edit code snippets
-* Select programming language (if implemented)
-* Render code as a styled image
-* Export or download the generated image
-* Responsive and clean user interface
+Code to Image App is a frontend application built using **HTML, CSS, and JavaScript**.  
+The application enables users to paste code snippets and generate visually appealing images that can be shared on social media or used in documentation.
 
-## Architecture and Design
+The project focuses on UI styling, user input handling, and dynamic content rendering.
 
-The application follows a clear, component-based architecture with a focus on separation of concerns and predictable UI behavior.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+1. The user enters or pastes a code snippet into the input area.
+2. The application renders the code inside a styled container.
+3. The styled code block is converted into an image.
+4. The generated image can be downloaded or shared.
+5. All processing is done on the client side.
 
-  * Root component
-  * Manages global application state and configuration
+---
 
-* `CodeEditor`
+## Features
 
-  * Controlled input for code content
+- Convert code snippets into images
+- Styled code display
+- Instant image generation
+- Simple and clean user interface
+- Frontend-only implementation
 
-* `Preview`
-
-  * Displays the rendered code image
-
-* `ExportControls`
-
-  * Handles image export and download actions
-
-## State Management Strategy
-
-* React hooks (`useState`, `useEffect`) are used to manage:
-
-  * Code content
-  * Selected language or theme
-  * Rendering options (font size, background, padding)
-
-* State updates are immutable and predictable
-
-## Rendering and Image Generation
-
-* Uses browser APIs such as **Canvas** or a third-party rendering library
-* Converts styled code blocks into image data
-* Ensures visual consistency between preview and exported image
-
-## Data Flow
-
-* Unidirectional data flow from the root component to child components
-* Presentation components remain stateless where possible
-* User actions trigger re-rendering via state updates
-
-## Error Handling and Edge Cases
-
-* Prevents exporting empty code snippets
-* Handles rendering failures gracefully
-* Ensures consistent output across repeated exports
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **Canvas API / third-party libraries** – image generation
-* **CSS** – layout and styling
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-## Local Development Setup
+---
 
-1. Install dependencies:
+## Installation
 
-   ```bash
-   npm install
-   ```
-2. Start the development server:
+1. Download or clone the repository.
+2. Open the project folder.
+3. No additional dependencies are required.
 
-   ```bash
-   npm start
-   ```
-3. Open the application at:
+---
 
-   ```
-   http://localhost:3000
-   ```
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. Paste a code snippet into the input field.
+3. Generate the image from the code.
+4. Download or share the generated image.
+
+---
 
 ## Possible Improvements
 
-* Syntax highlighting themes
-* Export to multiple formats (PNG, SVG)
-* Preset templates for social sharing
-* Drag-and-drop styling adjustments
-* Accessibility improvements
-
-Code to Image represents a concise example of a developer-focused utility application that combines UI, rendering logic, and practical browser API usage.
+- Add syntax highlighting for multiple languages
+- Allow theme customization (dark/light)
+- Support different image formats
+- Add font and layout options
+- Improve image export quality
