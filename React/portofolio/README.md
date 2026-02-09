@@ -1,45 +1,67 @@
-# Frontend Portfolio
+# Portfolio Website
+
+A personal portfolio website that showcases projects, skills, and information about the developer in a clean and professional layout.
+
+---
 
 ## Overview
 
-This repository represents my **frontend development portfolio**, containing a collection of React and Next.js projects built to demonstrate practical skills. Each project focuses on a specific area of frontend development, ranging from state management and CRUD operations to API integration and browser media APIs.
+This project is a frontend personal portfolio website built using **HTML, CSS, and JavaScript**.  
+The website is designed to present personal information, technical skills, and completed projects in an organized and visually appealing way.
 
-The portfolio is structured to showcase clean architecture, predictable data flow, and real-world problem solving rather than purely visual complexity.
+The project demonstrates responsive design, modern UI layout, and basic interactivity using JavaScript.
 
-## Portfolio Structure
+---
 
-This portfolio contains multiple small-to-medium frontend applications, each designed to highlight a specific technical skill set. Rather than focusing on a single large project, the portfolio emphasizes breadth and depth across common frontend problem domains.
+## How It Works
 
-The included applications cover areas such as:
+1. The website loads static content structured into multiple sections.
+2. Navigation allows users to scroll smoothly between sections.
+3. Project information is displayed using cards or sections.
+4. Styling ensures a responsive layout for different screen sizes.
+5. JavaScript is used for basic interactivity and dynamic effects.
 
-* CRUD operations and state management
-* API-driven interfaces and asynchronous data handling
-* Browser media APIs (audio and video)
-* Form handling and controlled components
-* Client-side data persistence
-* Component-driven architecture and scalability considerations
+---
 
-## Technical Stack
+## Features
 
-* **React** – functional components and hooks
-* **Next.js** – routing, optimization, and application structure
-* **JavaScript / TypeScript**
-* **HTML5 APIs** – audio and video
-* **CSS** – responsive layouts
+- Personal introduction section
+- Projects showcase section
+- Skills and technologies overview
+- Responsive design for all devices
+- Clean and modern user interface
 
-## What This Portfolio Demonstrates
+---
 
-* Strong understanding of React fundamentals
-* Clean, maintainable component architecture
-* Predictable state management and data flow
-* Practical integration with external APIs and browser APIs
-* Ability to scale small applications conceptually
+## Technologies Used
 
-## Future Improvements
+- HTML5
+- CSS3
+- JavaScript (ES6)
 
-* Add backend services and authentication
-* Introduce automated testing
-* Improve accessibility
-* Optimize performance and caching
+---
 
-This portfolio represents a focused and technically grounded collection of frontend projects.
+## Installation
+
+1. Download or clone the repository.
+2. Open the project folder.
+3. No additional dependencies are required.
+
+---
+
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. Navigate through the portfolio sections.
+3. View showcased projects and skills.
+4. Use the website as a personal presentation or online resume.
+
+---
+
+## Possible Improvements
+
+- Add animations and transitions
+- Include a contact form with email functionality
+- Improve accessibility (ARIA, keyboard navigation)
+- Add dark/light theme toggle
+- Deploy the portfolio online
