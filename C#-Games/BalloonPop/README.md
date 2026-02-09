@@ -36,9 +36,9 @@ The core logic runs inside a `Timer` event (`gameTimer_Tick`):
    - The score label is updated
 
 2. Difficulty increases dynamically:
-   - Score > 5 → speed increases
-   - Score ≥ 15 → speed increases further
-   - Score ≥ 25 → maximum speed is reached
+   - Score > 5 -> speed increases
+   - Score >= 15 -> speed increases further
+   - Score >= 25 -> maximum speed is reached
 
 ---
 
