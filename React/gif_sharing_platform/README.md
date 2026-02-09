@@ -1,102 +1,78 @@
 # GIF Sharing Platform
 
-## Technical Overview
+A frontend web application that allows users to search, view, and share GIFs fetched from an external API.
 
-This project is a **GIF Sharing Platform** built with **React**, designed to demonstrate frontend skills such as API integration, search functionality, dynamic list rendering, and user interaction patterns. The application allows users to discover, preview, and share GIFs fetched from an external service.
+---
 
-## Functional Scope
+## Overview
 
-* Fetch and display GIFs from an external API
-* Search GIFs by keyword
-* Display GIF results in a responsive grid layout
-* Preview individual GIFs
-* Handle loading, error, and empty states
-* Responsive design for multiple screen sizes
+GIF Sharing Platform is a frontend application built using **React**.  
+The application allows users to discover and preview GIFs by searching keywords, with all data fetched from an external GIF API.
 
-## Architecture and Design
+The project focuses on API integration, dynamic rendering, and responsive user interface design.
 
-The application follows a modular, component-based architecture with a clear separation between data fetching, state management, and presentation logic.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+1. The user enters a search keyword.
+2. The application sends a request to an external GIF API.
+3. GIF data is fetched asynchronously.
+4. The results are displayed dynamically in a responsive grid layout.
+5. Loading, error, and empty states are handled gracefully.
 
-  * Root component
-  * Manages global application state and API interaction
+---
 
-* `SearchBar`
+## Features
 
-  * Controlled input for search queries
+- Search GIFs by keyword
+- Fetch GIFs from an external API
+- Display GIFs in a responsive grid
+- Preview individual GIFs
+- Loading and error handling
+- Fully responsive design
 
-* `GifList`
-
-  * Renders a collection of GIF results
-
-* `GifItem`
-
-  * Displays an individual GIF preview
-
-## State Management Strategy
-
-* React hooks (`useState`, `useEffect`) are used for state management
-
-* Application state includes:
-
-  * Search query
-  * GIF results list
-  * Loading and error states
-
-* State updates are immutable to ensure predictable UI behavior
-
-## Data Flow
-
-* Unidirectional data flow from root component to child components
-* Data fetching logic is centralized
-* Child components remain focused on rendering and user interaction
-
-## API Integration
-
-* Integrates with an external GIF API (e.g. Giphy)
-* Fetches data asynchronously based on user input
-* Handles network latency and API error scenarios
-
-## Error Handling and Edge Cases
-
-* Gracefully handles empty search results
-* Displays fallback UI during API errors
-* Prevents unnecessary API calls for empty queries
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **External GIF API** – data source
-* **CSS** – responsive grid and styling
+- React
+- JavaScript (ES6)
+- External GIF API
+- HTML5
+- CSS3
 
-## Local Development Setup
+---
 
-1. Install dependencies:
+## Installation
 
+1. Download or clone the repository.
+2. Navigate to the project folder:
    ```bash
    npm install
    ```
-2. Start the development server:
-
+3. Start the development server:
    ```bash
    npm start
    ```
-3. Open the application at:
 
-   ```
-   http://localhost:3000
-   ```
+The application will run on `http://localhost:3000`.
+
+---
+
+## Usage
+
+1. Open the application in a web browser.
+2. Enter a keyword in the search bar.
+3. Browse the displayed GIF results.
+4. Click on a GIF to preview it.
+
+---
 
 ## Possible Improvements
 
-* Pagination or infinite scrolling
-* Debounced search input
-* Favorites or user collections
-* Backend persistence
-* Unit and integration testing
-
-This project represents a clean example of building a media-driven React application with focus on API usage, performance considerations, and maintainable component architecture.
+- Add pagination or infinite scrolling
+- Implement debounced search
+- Allow users to save favorite GIFs
+- Improve UI animations
+- Add backend persistence
