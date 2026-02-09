@@ -1,111 +1,113 @@
 # Snippet Master App
 
-## Technical Overview
+A web-based application that allows users to create, store, and manage code snippets in an organized and efficient way.
 
-Snippet Master is a **code snippet management web application** built with **React**, designed to showcase frontend skills such as structured state management, form handling, data persistence, and scalable component architecture. The application allows users to store, organize, and quickly access reusable code snippets.
+---
 
-## Functional Scope
+## Overview
 
-* Create, edit, and delete code snippets
-* Store snippet title, description, language, and code content
-* Organize snippets by category or programming language
-* Search and filter snippets
-* Persist snippets across sessions (Local Storage or similar)
-* Responsive and clean user interface
+Snippet Master is a full-stack application built with a **React frontend (client)** and a **Node.js (Express) backend**.
 
-## Architecture and Design
+The application helps users save and manage reusable code snippets, making it easier to organize frequently used code.  
+The project demonstrates client–server communication, REST APIs, and modern full-stack web development.
 
-The application follows a modular, component-based architecture with clear separation between data management and presentation logic.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+### Backend
+1. The backend is built using **Node.js and Express**.
+2. It exposes REST API endpoints for managing code snippets.
+3. Snippets are stored and managed on the server.
+4. The backend responds with JSON data to client requests.
 
-  * Root component
-  * Manages global snippet state and persistence logic
+### Client
+1. The client is built using **React**.
+2. The application sends HTTP requests to the backend API.
+3. Snippets are fetched, displayed, and managed dynamically.
+4. User actions trigger API calls that update snippet data.
 
-* `SnippetList`
+---
 
-  * Renders the list of snippets based on filters/search
+## Features
 
-* `SnippetItem`
+- Full-stack architecture (client + backend)
+- Create and manage code snippets
+- REST API for snippet handling
+- React-based user interface
+- Dynamic data rendering
+- Clear separation between frontend and backend
 
-  * Displays a single snippet preview
-  * Handles snippet-level actions (edit, delete)
-
-* `SnippetForm`
-
-  * Controlled form for creating and editing snippets
-
-* `Search / Filters`
-
-  * Handles snippet searching and filtering logic
-
-## State Management Strategy
-
-* Application state is managed using React hooks (`useState`, `useEffect`)
-
-* Snippets are stored as structured objects:
-
-  * `id` – unique identifier
-  * `title` – snippet name
-  * `language` – programming language
-  * `code` – code content
-  * `metadata` – optional description or tags
-
-* State updates follow immutable patterns for predictable rendering
-
-## Data Flow
-
-* Unidirectional data flow from the root component to child components
-* Business logic is centralized to avoid duplicated or inconsistent state
-* Child components communicate user actions via callback props
-
-## Persistence Layer
-
-When enabled, the application uses browser storage:
-
-* Initial state is hydrated on application load
-* Snippet changes are persisted automatically
-* Ensures data is retained across page refreshes
-
-## Error Handling and Edge Cases
-
-* Prevents creation of empty snippets
-* Handles empty search results gracefully
-* Ensures stable rendering with unique keys
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **CSS** – layout and responsive styling
+### Client
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-## Local Development Setup
+### Backend
+- Node.js
+- Express
+- REST API
 
-1. Install dependencies:
+---
 
+## Installation
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+   ```bash
+   cd snippet_master/backend
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Start the development server:
-
+3. Start the backend server:
    ```bash
    npm start
    ```
-3. Open the application at:
 
+The backend will run on `http://localhost:5000` (or the configured port).
+
+### Client Setup
+
+1. Navigate to the client folder:
+   ```bash
+   cd snippet_master/client
    ```
-   http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
    ```
+3. Start the React application:
+   ```bash
+   npm start
+   ```
+
+The client will run on `http://localhost:3000`.
+
+---
+
+## Usage
+
+1. Start the backend server.
+2. Start the client application.
+3. Open a browser and go to `http://localhost:3000`.
+4. Create, view, and manage code snippets through the interface.
+5. All snippet operations are handled through the backend API.
+
+---
 
 ## Possible Improvements
 
-* Syntax highlighting for code blocks
-* Tag-based organization
-* Import/export snippets
-* Backend persistence with authentication
-* Unit and integration testing
-* Improved accessibility
-
-Snippet Master represents a practical example of building a productivity-focused React application with clean architecture and maintainable state management.
+- Add user authentication and accounts
+- Add syntax highlighting for code snippets
+- Organize snippets by language or tags
+- Implement search and filtering
+- Persist data using a database
+- Deploy the application online
