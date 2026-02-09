@@ -91,6 +91,8 @@ The backend will run on `http://localhost:5000` (or the configured port).
 
 The client will run on `http://localhost:3000`.
 
+---
+
 ## Usage
 
 1. Start the backend server.
@@ -98,6 +100,8 @@ The client will run on `http://localhost:3000`.
 3. Open a browser and go to `http://localhost:3000`.
 4. View, manage, and interact with tasks through the UI.
 5. All task changes are handled through the backend API.
+
+---
 
 ## Possible Improvements
 
