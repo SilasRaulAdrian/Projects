@@ -1,101 +1,113 @@
 # Job Finder App
 
-## Technical Overview
+A full-stack job search application that allows users to browse, search, and view job listings through a web interface.
 
-Job Finder is a **job search web application** built with **React**, designed to demonstrate frontend skills such as API integration, list rendering, filtering logic, and scalable state management. The application focuses on presenting structured data from external sources and allowing users to efficiently browse and filter job listings.
+---
 
-## Functional Scope
+## Overview
 
-* Display a list of job postings
-* Search jobs by keyword, title, or company
-* Filter jobs by criteria such as location or job type (if implemented)
-* View job details
-* Handle loading and empty states
-* Responsive layout for different screen sizes
+Job Finder App is a full-stack web application built with a **React frontend (client)** and a **Node.js (Express) backend**.
 
-## Architecture and Design
+The backend provides job data through REST API endpoints, while the frontend displays job listings and allows users to search and explore available positions.  
+The project demonstrates client–server communication, REST APIs, and modern web application development.
 
-The application follows a modular, component-based architecture with clear separation between data fetching, state management, and presentation.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+### Backend
+1. The backend is built using **Node.js and Express**.
+2. It exposes REST API endpoints for retrieving job listings.
+3. Job data is stored and managed on the server.
+4. The backend sends job information to the client in JSON format.
 
-  * Root component
-  * Manages global application state
+### Client
+1. The client is built using **React**.
+2. The application fetches job listings from the backend API.
+3. Users can browse and search available jobs.
+4. Job data is rendered dynamically in the user interface.
 
-* `JobList`
+---
 
-  * Renders the list of job postings
+## Features
 
-* `JobItem`
+- Full-stack architecture (client + backend)
+- Browse and search job listings
+- REST API for job data handling
+- React-based user interface
+- Dynamic data rendering
+- Clear separation between frontend and backend
 
-  * Displays a single job summary
-
-* `JobDetails`
-
-  * Shows detailed information for a selected job
-
-* `Search / Filters`
-
-  * Handles user input for searching and filtering jobs
-
-## State Management Strategy
-
-* React hooks (`useState`, `useEffect`) are used for state management
-* Job data is stored as structured objects returned from the API
-* State updates follow immutable patterns
-* UI state (loading, errors, empty results) is handled explicitly
-
-## Data Flow
-
-* Unidirectional data flow from the root component to child components
-* Data fetching logic is centralized
-* Child components receive data and callbacks via props
-
-## API Integration
-
-* Integrates with an external jobs API or mock data source
-* Fetches job listings asynchronously
-* Handles network latency and error scenarios gracefully
-
-## Error Handling and Edge Cases
-
-* Displays fallback UI when no jobs are found
-* Handles API errors and network failures
-* Prevents rendering issues with missing or incomplete data
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **External API** – job listings data
-* **CSS** – layout and responsive styling
+### Client
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-## Local Development Setup
+### Backend
+- Node.js
+- Express
+- REST API
 
-1. Install dependencies:
+---
 
+## Installation
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+   ```bash
+   cd job_finder/backend
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Start the development server:
-
+3. Start the backend server:
    ```bash
    npm start
    ```
-3. Open the application at:
 
+The backend will run on `http://localhost:5000` (or the configured port).
+
+### Client Setup
+
+1. Navigate to the client folder:
+   ```bash
+   cd job_finder/client
    ```
-   http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
    ```
+3. Start the React application:
+   ```bash
+   npm start
+   ```
+
+The client will run on http://localhost:3000.
+
+---
+
+## Usage
+
+1. Start the backend server.
+2. Start the client application.
+3. Open a browser and go to `http://localhost:3000`.
+4. Browse available job listings.
+5. Use the search functionality to find jobs of interest.
+
+---
 
 ## Possible Improvements
 
-* Pagination or infinite scrolling
-* Backend integration with authentication
-* Saved jobs and user profiles
-* Advanced filtering and sorting
-* Unit and integration testing
-
-Job Finder represents a clean example of a data-driven React application focused on usability, scalability, and maintainable architecture.
+- Add user authentication and profiles
+- Allow users to save favorite job listings
+- Add filters (location, job type, salary)
+- Integrate real job APIs
+- Persist data using a database
+- Deploy the application online
