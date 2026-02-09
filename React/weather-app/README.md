@@ -56,6 +56,8 @@ The project demonstrates API usage, asynchronous JavaScript (`fetch`), and dynam
 3. If the project requires an API key:
    - Open the JavaScript file.
    - Replace the placeholder API key with your own key.
+  
+---
 
 ## Usage
 
@@ -63,6 +65,8 @@ The project demonstrates API usage, asynchronous JavaScript (`fetch`), and dynam
 2. Enter the name of a city in the input field.
 3. Click the search button.
 4. The application will display the current weather information for the selected city.
+
+---
 
 ## Possible Improvements
 
