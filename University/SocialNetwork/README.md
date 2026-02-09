@@ -1,4 +1,4 @@
-# Duck Social Network 🦆
+# Duck Social Network
 
 ## Overview
 
