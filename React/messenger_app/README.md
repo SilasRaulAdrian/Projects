@@ -1,106 +1,113 @@
 # Messenger App
 
-## Technical Overview
+A full-stack messaging application that allows users to communicate with each other through real-time text messages.
 
-This project is a **Messenger / Chat** web application built with **React**, designed to demonstrate frontend skills such as real-time-style UI updates, structured state management, and component-driven architecture. The application focuses on message flow, UI state, and clean separation between logic and presentation.
+---
 
-## Functional Scope
+## Overview
 
-* Display a list of conversations or messages
-* Send new messages through a controlled input
-* Render messages dynamically in the chat view
-* Differentiate messages by sender (user vs recipient)
-* Auto-scroll to the latest message (if implemented)
-* Responsive chat layout
+Messenger App is a full-stack chat application built with a **React frontend (client)** and a **Node.js (Express) backend**.
 
-## Architecture and Design
+The backend handles message data and API requests, while the frontend provides a real-time messaging interface for users.  
+The project demonstrates client–server communication, REST APIs, and the fundamentals of a messaging system.
 
-The application follows a modular React architecture, emphasizing predictable data flow and reusable components.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+### Backend
+1. The backend is built using **Node.js and Express**.
+2. It exposes REST API endpoints for sending and retrieving messages.
+3. Messages are stored and managed on the server.
+4. The backend sends JSON responses to the client.
 
-  * Root component
-  * Manages global chat state
+### Client
+1. The client is built using **React**.
+2. The application sends HTTP requests to the backend API.
+3. Messages are fetched and displayed dynamically in the chat interface.
+4. User actions trigger API calls that update messages in real time.
 
-* `ChatWindow`
+---
 
-  * Displays the active conversation
+## Features
 
-* `MessageList`
+- Full-stack architecture (client + backend)
+- Send and receive text messages
+- REST API for message handling
+- React-based chat interface
+- Dynamic message rendering
+- Clear separation between frontend and backend
 
-  * Renders the list of messages
-
-* `MessageItem`
-
-  * Represents a single message bubble
-
-* `MessageInput`
-
-  * Controlled input for composing and sending messages
-
-## State Management Strategy
-
-* React hooks (`useState`, `useEffect`) are used for state management
-
-* Messages are stored as structured objects:
-
-  * `id` – unique identifier
-  * `text` – message content
-  * `sender` – message origin
-  * `timestamp` – send time
-
-* State updates are immutable to ensure predictable rendering
-
-## Data Flow
-
-* Unidirectional data flow from the root component to children
-* Message creation logic is centralized
-* Child components communicate actions via callback props
-
-## UI Behavior and Interaction
-
-* Controlled input ensures reliable message composition
-* Conditional rendering is used for message styling
-* Optional auto-scroll logic improves user experience
-
-## Error Handling and Edge Cases
-
-* Prevents sending empty messages
-* Handles empty conversation state gracefully
-* Ensures stable rendering with unique message keys
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **CSS** – layout and chat UI styling
+### Client
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-## Local Development Setup
+### Backend
+- Node.js
+- Express
+- REST API
 
-1. Install dependencies:
+---
 
+## Installation
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+   ```bash
+   cd messenger_app/backend
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Start the development server:
-
+3. Start the backend server:
    ```bash
    npm start
    ```
-3. Open the application at:
 
+The backend will run on `http://localhost:5000` (or the configured port).
+
+### Client Setup
+
+1. Navigate to the client folder:
+   ```bash
+   cd messenger_app/client
    ```
-   http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
    ```
+3. Start the React application:
+   ```bash
+   npm start
+   ```
+
+The client will run on `http://localhost:3000`.
+
+---
+
+## Usage
+
+1. Start the backend server.
+2. Start the client application.
+3. Open a browser and go to `http://localhost:3000`.
+4. Type a message in the input field.
+5. Send the message and view it instantly in the chat interface.
+
+---
 
 ## Possible Improvements
 
-* Real-time messaging with WebSockets or Firebase
-* User authentication and multiple conversations
-* Message persistence with a backend
-* Typing indicators and read receipts
-* Accessibility improvements
-
-This project represents a clean example of building a chat-style interface in React with a focus on data flow, UI state, and scalability considerations.
+- Add user authentication and accounts
+- Implement real-time messaging using WebSockets
+- Add message timestamps and read status
+- Support file and image sharing
+- Persist messages using a database
+- Deploy the application online
