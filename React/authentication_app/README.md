@@ -1,108 +1,113 @@
 # Authentication App
 
-## Technical Overview
+A full-stack authentication application that allows users to register, log in, and manage access to protected content.
 
-Authentication App is a **frontend authentication-focused application** built with **React**, designed to demonstrate skills such as form handling, authentication flows, state management, and basic security considerations on the client side. The application focuses on login, registration, and protected UI states.
+---
 
-## Functional Scope
+## Overview
 
-* User registration (sign up)
-* User login (sign in)
-* Form validation and error handling
-* Authentication state management
-* Conditional rendering based on authentication state
-* Protected routes or components (if implemented)
-* Logout functionality
+Authentication App is a full-stack web application built with a **React frontend (client)** and a **Node.js (Express) backend**.  
+The application demonstrates user authentication concepts such as registration, login, and protected routes.
 
-## Architecture and Design
+The project focuses on client–server communication, authentication flow, and secure user access handling.
 
-The application follows a clean, component-based architecture with a clear separation between authentication logic and presentation.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+### Backend
+1. The backend is built using Node.js and Express.
+2. It exposes API endpoints for user registration and login.
+3. User credentials are validated on the server.
+4. Authentication responses are sent to the client.
 
-  * Root component
-  * Manages global authentication state
+### Client
+1. The client is built using React.
+2. Users can register and log in through forms.
+3. The client sends authentication requests to the backend.
+4. Authenticated users can access protected parts of the application.
 
-* `LoginForm`
+---
 
-  * Controlled form for user login
+## Features
 
-* `RegisterForm`
+- Full-stack architecture (client + backend)
+- User registration and login
+- Authentication API endpoints
+- Protected access flow
+- Clear separation between frontend and backend
 
-  * Controlled form for user registration
+---
 
-* `AuthProvider` / `AuthContext` (if implemented)
+## Technologies Used
 
-  * Centralizes authentication state and logic
+### Client
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-* `ProtectedRoute` (if implemented)
+### Backend
+- Node.js
+- Express
+- REST API
 
-  * Guards authenticated-only views
+---
 
-## State Management Strategy
+## Installation
 
-* React hooks (`useState`, `useEffect`) are used to manage authentication state
+### Backend Setup
 
-* Authentication state includes:
-
-  * User session data
-  * Authentication status (authenticated / unauthenticated)
-  * Error and loading states
-
-* State updates follow immutable patterns
-
-## Authentication Flow
-
-* User submits credentials via controlled forms
-* Credentials are validated client-side
-* Authentication state is updated based on success or failure
-* UI updates dynamically to reflect authentication status
-
-> Note: This project focuses on frontend authentication patterns. Backend validation and token verification are mocked or abstracted if not implemented.
-
-## Data Flow
-
-* Unidirectional data flow from the root component to child components
-* Authentication logic is centralized
-* Child components react to authentication state via props or context
-
-## Error Handling and Edge Cases
-
-* Prevents submission of empty or invalid credentials
-* Displays meaningful error messages
-* Handles unauthorized access attempts gracefully
-  n## Technologies Used
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **CSS** – layout and form styling
-
-## Local Development Setup
-
-1. Install dependencies:
-
+1. Navigate to the backend folder:
+   ```bash
+   cd authentication_app/backend
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Start the development server:
-
+3. Start the backend server:
    ```bash
    npm start
    ```
-3. Open the application at:
 
+The backend will run on `http://localhost:5000` (or the configured port).
+
+### Client Setup
+
+1. Navigate to the client folder:
+   ```bash
+   cd authentication_app/auth-kit-client
    ```
-   http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
    ```
+3. Start the React application:
+   ```bash
+   npm start
+   ```
+
+The client will run on `http://localhost:3000`.
+
+---
+
+## Usage
+
+1. Start the backend server.
+2. Start the client application.
+3. Open a browser and go to `http://localhost:3000`.
+4. Register a new user account.
+5. Log in using the created credentials.
+6. Access protected sections of the application.
+
+---
 
 ## Possible Improvements
 
-* JWT-based authentication with backend integration
-* Refresh tokens and session persistence
-* Password strength validation
-* OAuth (Google, GitHub)
-* Role-based access control
-* Unit and integration testing
-
-Authentication App represents a clean example of implementing authentication patterns on the frontend with a focus on state management, UX, and security awareness.
+- Add password hashing and security enhancements
+- Implement JWT-based authentication
+- Add logout functionality
+- Add user roles and permissions
+- Persist users using a database
+- Deploy the application online
