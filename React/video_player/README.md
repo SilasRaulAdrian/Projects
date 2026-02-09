@@ -99,6 +99,8 @@ The backend will run on `http://localhost:5000` (or the configured port).
 
 The frontend will run on `http://localhost:3000`.
 
+---
+
 ## Usage
 
 1. Start the backend server.
@@ -106,6 +108,8 @@ The frontend will run on `http://localhost:3000`.
 3. Open a browser and go to `http://localhost:3000`.
 4. Browse the available videos.
 5. Select a video to play it directly in the browser.
+
+---
 
 ## Possible Improvements
 
