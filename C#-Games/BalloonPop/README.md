@@ -95,7 +95,7 @@ After a Game Over, pressing **Enter**:
 ## How to Run the Game
 
 ### Run the Executable
-1. Open:
+1. Open: BalloonPop/bin/Debug/
 2. Run `BalloonPop.exe`
 
 ### Run from Visual Studio
