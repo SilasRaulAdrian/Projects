@@ -1,97 +1,70 @@
 # QR Code Generator App
 
-## Technical Overview
+A simple web-based QR Code Generator application that allows users to generate QR codes from custom text or URLs.
 
-This project is a **QR Code Generator** web application built with **React**, created to demonstrate frontend skills such as form handling, third-party library integration, state management, and dynamic UI updates. The application allows users to generate QR codes from text or URLs in real time.
+---
 
-## Functional Scope
+## Overview
 
-* Generate QR codes from user-provided input (text or URL)
-* Real-time QR code updates based on input changes
-* Input validation and basic error handling
-* Download generated QR code as an image (if implemented)
-* Clean and responsive user interface
+This project is a frontend QR Code Generator built using **HTML, CSS, and JavaScript**.  
+The application allows users to input text or links and instantly generate a QR code that can be scanned by mobile devices.
 
-## Architecture and Design
+The project demonstrates DOM manipulation, event handling, and the integration of a QR code generation library.
 
-The application uses a simple, component-based architecture focused on clarity and maintainability.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+1. The user enters text or a URL into the input field.
+2. When the generate button is clicked:
+   - JavaScript processes the input value.
+   - A QR code is generated dynamically using a QR code library.
+3. The generated QR code is displayed on the screen.
+4. Each new input generates a new QR code without reloading the page.
 
-  * Root component
-  * Manages global state and application layout
+---
 
-* `QrForm`
+## Features
 
-  * Controlled input form for user data
+- Generate QR codes from text or URLs
+- Instant QR code generation
+- Clean and simple user interface
+- Dynamic updates without page reload
+- Lightweight and fast execution
 
-* `QrPreview`
-
-  * Renders the generated QR code
-  * Updates dynamically based on props
-
-## State Management Strategy
-
-* React hooks (`useState`) are used to manage:
-
-  * User input value
-  * Generated QR code data
-
-* State updates are synchronous and predictable
-
-* Controlled inputs ensure consistent UI behavior
-
-## QR Code Generation Logic
-
-* Uses a third-party QR code generation library
-* QR code is regenerated on each valid input change
-* Input data is sanitized before being passed to the generator
-
-## Data Flow
-
-* Unidirectional data flow from `App` to child components
-* Business logic is centralized in the root component
-* Presentation components remain stateless
-
-## Error Handling and Edge Cases
-
-* Prevents QR generation for empty input
-* Handles invalid or unsupported input gracefully
-* Ensures UI stability during rapid input changes
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **QR Code library** – QR generation
-* **CSS** – layout and responsive styling
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- QR Code Generator Library
 
-## Local Development Setup
+---
 
-1. Install dependencies:
+## Installation
 
-   ```bash
-   npm install
-   ```
-2. Start the development server:
+1. Download or clone the repository.
+2. Open the project folder.
+3. No additional dependencies are required.
 
-   ```bash
-   npm start
-   ```
-3. Open the application at:
+---
 
-   ```
-   http://localhost:3000
-   ```
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. Enter text or a URL into the input field.
+3. Click the generate button.
+4. The QR code will appear instantly on the screen.
+5. Scan the QR code using a mobile device or QR scanner.
+
+---
 
 ## Possible Improvements
 
-* Support for multiple QR formats (URL, Wi-Fi, contact info)
-* Customization options (size, color, error correction level)
-* Backend service for QR history
-* Unit tests for input validation and logic
-* Accessibility improvements
-
-This project represents a concise example of building a utility-focused React application with clean data flow and practical third-party integration.
+- Allow users to download the generated QR code as an image
+- Add size and color customization options
+- Support different QR code formats
+- Add input validation and error handling
+- Improve UI animations and styling
