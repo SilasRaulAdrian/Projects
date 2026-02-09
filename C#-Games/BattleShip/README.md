@@ -75,9 +75,9 @@ The game keeps track of all shots and updates the board accordingly.
 ## Visual Feedback
 
 The game uses image resources to indicate results:
-- **Fire icon** → successful hit
-- **Miss icon** → missed shot
-- **Background image** → game board background
+- **Fire icon** -> successful hit
+- **Miss icon** -> missed shot
+- **Background image** -> game board background
 
 These visuals make the game state clear and intuitive.
 
