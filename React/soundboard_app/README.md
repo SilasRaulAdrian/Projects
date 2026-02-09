@@ -1,92 +1,69 @@
 # Soundboard App
 
-## Technical Overview
+A simple web-based Soundboard application that allows users to play different sounds by interacting with buttons on the interface.
 
-This project is a **Soundboard** web application built with **React**, designed to demonstrate frontend fundamentals, including event handling, state management, and media control in the browser. The application allows users to trigger and control audio playback through an interactive UI.
+---
 
-## Functional Scope
+## Overview
 
-* Play sound effects on user interaction
-* Multiple sound buttons mapped to different audio files
-* Stop or replay sounds on demand
-* Keyboard and mouse interaction support (if implemented)
-* Simple and responsive user interface
+This project is a frontend Soundboard application built using **HTML, CSS, and JavaScript**.  
+The application allows users to trigger and play audio clips by clicking on buttons, demonstrating basic audio handling in the browser.
 
-## Architecture and Design
+The project focuses on DOM manipulation, event handling, and working with the HTML5 Audio API.
 
-The application follows a component-based React architecture, focusing on clarity, reusability, and predictable behavior.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+1. The application loads multiple audio files when the page is opened.
+2. Each button on the interface is associated with a specific sound.
+3. When a user clicks a button:
+   - The corresponding audio file is played.
+4. JavaScript event listeners handle user interactions.
+5. Sounds can be replayed multiple times without reloading the page.
 
-  * Root component
-  * Manages global sound configuration and layout
+---
 
-* `SoundButton`
+## Features
 
-  * Represents a single sound trigger
-  * Handles click events and audio playback logic
+- Play sounds using interactive buttons
+- Multiple audio clips available
+- Instant audio playback
+- Simple and intuitive user interface
+- Lightweight and fast execution
 
-* `SoundBoard` (if present)
-
-  * Groups and renders multiple sound buttons
-
-## State Management Strategy
-
-* Local state is managed using React hooks (`useState`)
-* Audio elements are controlled via JavaScript Audio API or HTMLAudioElement
-* References (`useRef`) may be used to prevent unnecessary re-renders and to manage audio instances
-
-## Event Handling
-
-* User interactions are handled through React event handlers
-* Ensures only the intended sound is played on each interaction
-* Optional logic to stop currently playing sounds before starting a new one
-
-## Data Flow
-
-* Configuration data (sound name, file path) is passed down via props
-* Child components remain stateless where possible
-* Unidirectional data flow is preserved throughout the application
-
-## Error Handling and Edge Cases
-
-* Prevents audio overlap when required
-* Handles missing or failed audio file loading gracefully
-* Ensures consistent behavior across rapid user interactions
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript** – application logic and event handling
-* **HTML5 Audio API** – sound playback
-* **CSS** – layout and styling
+- HTML5
+- CSS3
+- JavaScript (ES6)
+- HTML5 Audio API
 
-## Local Development Setup
+---
 
-1. Install dependencies:
+## Installation
 
-   ```bash
-   npm install
-   ```
-2. Start the development server:
+1. Download or clone the repository.
+2. Open the project folder.
+3. No additional dependencies are required.
 
-   ```bash
-   npm start
-   ```
-3. Open the application at:
+---
 
-   ```
-   http://localhost:3000
-   ```
+## Usage
+
+1. Open the `index.html` file in a web browser.
+2. Click on any sound button displayed on the screen.
+3. The associated sound will play immediately.
+4. Click buttons multiple times to replay sounds.
+
+---
 
 ## Possible Improvements
 
-* Add global stop / mute functionality
-* Keyboard shortcuts for sound playback
-* Volume control per sound
-* Accessibility improvements (ARIA labels, keyboard navigation)
-* Refactor audio logic into a custom hook
-
-This project represents a concise example of handling media interactions in a React application.
+- Add volume control for sounds
+- Allow keyboard shortcuts for sound playback
+- Add visual animations when sounds are played
+- Group sounds into categories
+- Add support for custom user-uploaded sounds
