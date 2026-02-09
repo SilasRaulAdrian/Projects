@@ -1,111 +1,117 @@
 # Video Player App
 
-## Technical Overview
+A full-stack video player application that allows users to upload, stream, and watch videos through a web interface.
 
-This project is a **Video Player** web application built with **React**, intended to demonstrate frontend skills such as media handling, component design, state management, and interaction with browser APIs. The application provides custom video playback controls on top of the native HTML5 video element.
+---
 
-## Functional Scope
+## Overview
 
-* Play and pause video playback
-* Seek forward and backward using a progress bar
-* Display current playback time and total duration
-* Volume control and mute functionality
-* Fullscreen mode (if implemented)
-* Responsive layout adaptable to different screen sizes
+This project is a full-stack video player built with a **React frontend** and a **Node.js (Express) backend**.
 
-## Architecture and Design
+The backend handles video storage and streaming, while the frontend provides a user-friendly interface for browsing and playing videos.  
+The project demonstrates client–server communication, REST APIs, video streaming, and modern frontend development.
 
-The application is structured using reusable React components, separating presentation from media control logic to ensure clarity and maintainability.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+### Backend
+1. The backend is built using **Node.js and Express**.
+2. Videos are stored in the `public/videos` directory on the server.
+3. A REST API endpoint provides access to the available videos.
+4. Video files are streamed directly from the server to the client.
 
-  * Root component
-  * Manages global layout and passes video configuration
+### Frontend
+1. The frontend is built with **React**.
+2. The application fetches the list of available videos from the backend API.
+3. Users can:
+   - View a list of uploaded videos
+   - Select a video
+   - Play the video using a custom video player component
+4. Video playback is handled using the HTML5 `<video>` element.
 
-* `VideoPlayer`
+---
 
-  * Core component responsible for video rendering
-  * Wraps the HTML5 `<video>` element
+## Features
 
-* `Controls`
+- Video streaming from a backend server
+- React-based user interface
+- Upload and list available videos
+- Custom video player component
+- REST API for video handling
+- Separation between frontend and backend
 
-  * Custom UI controls (play/pause, seek, volume)
-  * Communicates user actions via callbacks
-
-* `ProgressBar`
-
-  * Visualizes playback progress
-  * Allows seeking through user interaction
-
-## State Management Strategy
-
-* React hooks (`useState`) are used to track:
-
-  * Play / pause state
-  * Current playback time
-  * Video duration
-  * Volume and mute state
-
-* `useRef` is used to access and control the underlying HTML5 video element without triggering unnecessary re-renders
-
-## Media and Event Handling
-
-* Relies on the **HTML5 Video API** for playback control
-
-* Listens to video events such as:
-
-  * `timeupdate`
-  * `loadedmetadata`
-  * `ended`
-
-* Ensures synchronization between video state and UI state
-
-## Data Flow
-
-* Unidirectional data flow from parent to child components
-* Media state is centralized in the main video component
-* UI components remain stateless and receive data via props
-
-## Error Handling and Edge Cases
-
-* Handles unloaded or unsupported video sources
-* Prevents invalid seek values
-* Ensures UI remains consistent during rapid user interactions
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript** – application logic
-* **HTML5 Video API** – media playback
-* **CSS** – layout and responsive styling
+### Frontend
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS
 
-## Local Development Setup
+### Backend
+- Node.js
+- Express
+- REST API
+- UUID (for unique video names)
 
-1. Install dependencies:
+---
 
+## Installation
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+   ```bash
+   cd video_player/backend
+   ```
+   
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Start the development server:
-
+   
+3. Start the backend server:
    ```bash
    npm start
    ```
-3. Open the application at:
+   
+The backend will run on `http://localhost:5000` (or the configured port).
 
+### Frontend Setup
+
+1. Navigate to the frontend folder:
+   ```bash
+   cd video_player/frontend-app
    ```
-   http://localhost:3000
+   
+2. Install dependencies:
+   ```bash
+   npm install
    ```
+
+3. Start the React application:
+   ```
+   npm start
+   ```
+
+The frontend will run on `http://localhost:3000`.
+
+## Usage
+
+1. Start the backend server.
+2. Start the frontend React application.
+3. Open a browser and go to `http://localhost:3000`.
+4. Browse the available videos.
+5. Select a video to play it directly in the browser.
 
 ## Possible Improvements
 
-* Keyboard shortcuts for playback control
-* Playback speed control
-* Subtitle / caption support
-* Picture-in-picture mode
-* Custom hook for video logic abstraction
-* Unit and integration testing
-
-This project serves as an example of integrating browser media APIs into a React application with clean architecture and predictable behavior.
+- Add authentication for video uploads
+- Implement video deletion and management
+- Add video thumbnails
+- Improve video buffering and loading indicators
+- Add comments or likes for videos
+- Deploy the application online
