@@ -61,12 +61,16 @@ The project focuses on modern React concepts such as reusable components, global
 
 The application will run on `http://localhost:3000`.
 
+---
+
 ## Usage
 
 1. Open the application in a web browser.
 2. View the list of existing todo items.
 3. Interact with the list through the user interface.
 4. Observe how themes and global styles affect the application appearance.
+
+---
 
 ## Possible Improvements
 
