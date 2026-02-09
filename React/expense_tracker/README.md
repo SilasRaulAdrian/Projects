@@ -1,110 +1,112 @@
 # Expense Tracker App
 
-## Technical Overview
+A full-stack expense tracking application that allows users to add, view, and manage expenses through a web interface.
 
-Expense Tracker is a **personal finance tracking web application** built with **React**, designed to demonstrate frontend skills such as state management, data modeling, aggregation logic, and user-driven data visualization. The application allows users to record expenses and analyze spending patterns over time.
+---
 
-## Functional Scope
+## Overview
 
-* Add, edit, and delete expense entries
-* Track expenses by amount, category, and date
-* Display total expenses and category-based summaries
-* Filter expenses by time period or category (if implemented)
-* Persist data across sessions (Local Storage or similar)
-* Responsive and user-friendly interface
+Expense Tracker App is a full-stack application built with a **React frontend (client)** and a **Node.js (Express) backend**.  
+The application helps users track their expenses by storing and retrieving data through a backend API.
 
-## Architecture and Design
+The project demonstrates client–server communication, REST APIs, and dynamic data rendering.
 
-The application follows a clean, component-based architecture with a strong emphasis on predictable data flow and separation of concerns.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+### Backend
+1. The backend is built using Node.js and Express.
+2. It exposes API endpoints for managing expenses.
+3. Expense data is stored and handled on the server.
+4. The backend sends JSON responses to the client.
 
-  * Root component
-  * Manages global expense state and persistence
+### Client
+1. The client is built using React.
+2. The application sends HTTP requests to the backend API.
+3. Expenses are fetched and displayed dynamically.
+4. User actions update both the backend and the UI.
 
-* `ExpenseList`
+---
 
-  * Renders the list of expense entries
+## Features
 
-* `ExpenseItem`
+- Full-stack architecture (client + backend)
+- Add and view expenses
+- REST API for expense management
+- Dynamic expense list rendering
+- Clear separation between frontend and backend
 
-  * Displays a single expense record
-
-* `ExpenseForm`
-
-  * Controlled form for adding and editing expenses
-
-* `Summary / Charts` (if present)
-
-  * Displays aggregated expense data
-
-## State Management Strategy
-
-* React hooks (`useState`, `useEffect`) are used for state management
-
-* Expenses are stored as structured objects:
-
-  * `id` – unique identifier
-  * `amount` – numeric value
-  * `category` – expense category
-  * `date` – transaction date
-  * `description` – optional notes
-
-* State updates follow immutable patterns to ensure predictable rendering
-
-## Data Flow
-
-* Unidirectional data flow from root component to child components
-* Aggregation and calculation logic is centralized
-* Presentation components remain stateless where possible
-
-## Persistence Layer
-
-When enabled, the application uses browser storage:
-
-* Initial state hydration on application load
-* Automatic persistence on expense updates
-* Ensures data retention on page refresh
-
-## Error Handling and Edge Cases
-
-* Validates numeric input for expense amounts
-* Prevents submission of invalid or empty data
-* Handles empty expense lists gracefully
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **CSS** – layout and responsive styling
+### Client
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-## Local Development Setup
+### Backend
+- Node.js
+- Express
+- REST API
 
-1. Install dependencies:
+---
 
+## Installation
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+   ```bash
+   cd expense_tracker/backend
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Start the development server:
-
+3. Start the backend server:
    ```bash
    npm start
    ```
-3. Open the application at:
 
+The backend will run on `http://localhost:5000` (or the configured port).
+
+### Client Setup
+
+1. Navigate to the client folder:
+   ```bash
+   cd expense_tracker/frontend
    ```
-   http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
    ```
+3. Start the React application:
+   ```bash
+   npm start
+   ```
+
+The client will run on `http://localhost:3000`.
+
+---
+
+## Usage
+
+1. Start the backend server.
+2. Start the client application.
+3. Open a browser and go to `http://localhost:3000`.
+4. Add new expenses through the interface.
+5. View and manage stored expenses.
+
+---
 
 ## Possible Improvements
 
-* Charts and visual analytics (bar / pie charts)
-* Monthly and yearly summaries
-* Currency support and formatting
-* Backend persistence and authentication
-* Export data (CSV)
-* Unit and integration testing
-
-Expense Tracker represents a practical example of a data-driven React application with a focus on state management, data aggregation, and maintainable architecture.
+- Add user authentication
+- Persist expenses using a database
+- Add expense categories
+- Implement charts and analytics
+- Improve error handling
+- Deploy the application online
