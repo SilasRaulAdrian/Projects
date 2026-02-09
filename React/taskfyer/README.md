@@ -1,103 +1,109 @@
 # Taskfyer App
 
-## Technical Overview
+A full-stack task management application that allows users to create, manage, and track tasks through a web interface.
 
-Taskfyer is a **task management web application** built with **React**, designed to demonstrate frontend skills such as scalable component architecture, state management, and user interaction patterns. The application focuses on organizing tasks efficiently while maintaining clean data flow and predictable state updates.
+---
 
-## Functional Scope
+## Overview
 
-* Create, edit, and delete tasks
-* Mark tasks as completed or in-progress
-* Organize tasks by status or category
-* Filter and search tasks
-* Persist tasks across sessions (Local Storage or similar, if implemented)
-* Responsive user interface
+Taskfyer is a full-stack task management application built with a **React frontend (client)** and a **Node.js (Express) backend**.
 
-## Architecture and Design
+The backend handles task data and API requests, while the frontend provides a clean and interactive user interface for managing tasks.  
+The project demonstrates client–server communication, REST APIs, and modern frontend development.
 
-The application follows a modular, component-driven architecture, emphasizing separation of concerns and reusability.
+---
 
-### Component Breakdown
+## How It Works
 
-* `App`
+### Backend
+1. The backend is built using **Node.js and Express**.
+2. It exposes REST API endpoints for managing tasks.
+3. Tasks are stored and managed on the server side.
+4. The backend sends JSON responses to the client.
 
-  * Root component
-  * Manages global application state
+### Client
+1. The client is built using **React**.
+2. The application sends HTTP requests to the backend API.
+3. Tasks are fetched and rendered dynamically in the UI.
+4. User actions trigger API requests that update the backend and UI state.
 
-* `TaskList`
+---
 
-  * Renders the collection of tasks based on current filters
+## Features
 
-* `TaskItem`
+- Full-stack architecture (client + backend)
+- Task creation and management
+- REST API for task handling
+- React-based user interface
+- Dynamic task rendering
+- Clear separation between frontend and backend
 
-  * Represents a single task
-  * Handles task-level interactions (complete, edit, delete)
-
-* `TaskForm`
-
-  * Controlled form for creating and editing tasks
-
-* `Filters / Search`
-
-  * Handles task filtering and searching logic
-
-## State Management Strategy
-
-* Application state is managed using React hooks (`useState`, `useEffect`)
-* Tasks are stored as structured objects (id, title, status, metadata)
-* State updates follow immutable patterns to ensure predictable rendering
-* Side effects such as persistence are isolated in effect hooks
-
-## Data Flow
-
-* Unidirectional data flow from root component to children via props
-* Child components communicate user actions through callback functions
-* Business logic is centralized to avoid duplicated state
-
-## Persistence Layer
-
-When enabled, Taskfyer uses browser storage:
-
-* Initial state hydration on application mount
-* Automatic persistence on task state changes
-* Ensures data retention on page reload
-
-## Error Handling and Edge Cases
-
-* Prevents creation of empty or invalid tasks
-* Handles empty task lists gracefully
-* Ensures stable rendering using unique keys
+---
 
 ## Technologies Used
 
-* **React** – component-based UI development
-* **JavaScript / TypeScript** – application logic
-* **CSS** – layout and responsive styling
+### Client
+- React
+- JavaScript (ES6)
+- HTML5
+- CSS3
 
-## Local Development Setup
+### Backend
+- Node.js
+- Express
+- REST API
 
-1. Install dependencies:
+---
 
+## Installation
+
+### Backend Setup
+
+1. Navigate to the backend folder:
+   ```bash
+   cd taskfyer/backend
+   ```
+2. Install dependencies:
    ```bash
    npm install
    ```
-2. Start the development server:
-
-   ```bash
+3. Start the backend server:
+   ```
    npm start
    ```
-3. Open the application at:
 
+The backend will run on `http://localhost:5000` (or the configured port).
+
+### Client Setup
+
+1. Navigate to the client folder:
+   ```bash
+   cd taskfyer/client
    ```
-   http://localhost:3000
+2. Install dependencies:
+   ```bash
+   npm install
    ```
+3. Start the React application:
+   ```
+   npm start
+   ```
+
+The client will run on `http://localhost:3000`.
+
+## Usage
+
+1. Start the backend server.
+2. Start the client application.
+3. Open a browser and go to `http://localhost:3000`.
+4. View, manage, and interact with tasks through the UI.
+5. All task changes are handled through the backend API.
 
 ## Possible Improvements
 
-* Introduce `useReducer` for more complex state logic
-* Add Context API for shared state
-* Implement backend persistence and authentication
-* Add drag-and-drop task reordering
-* Add unit and integration tests
-
-Taskfyer represents a clean example of a task management application with a focus on maintainable React architecture and practical frontend patterns.
+- Add authentication and user accounts
+- Persist tasks using a database
+- Implement task completion and priorities
+- Improve error handling and validation
+- Enhance UI animations and responsiveness
+- Deploy the application online
