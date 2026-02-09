@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\bin\Debug\QuizGame.exe.config
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\bin\Debug\QuizGame.exe
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\bin\Debug\QuizGame.pdb
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\obj\Debug\QuizGame.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\obj\Debug\QuizGame.MainForm.resources
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\obj\Debug\QuizGame.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\obj\Debug\QuizGame.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\obj\Debug\QuizGame.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\obj\Debug\QuizGame.exe
+D:\INFORMATICA\C#\Games\QuizGame\QuizGame\obj\Debug\QuizGame.pdb

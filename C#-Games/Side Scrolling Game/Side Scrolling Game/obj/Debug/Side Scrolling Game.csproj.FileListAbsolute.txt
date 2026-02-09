@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\bin\Debug\Side Scrolling Game.exe.config
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\bin\Debug\Side Scrolling Game.exe
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\bin\Debug\Side Scrolling Game.pdb
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\obj\Debug\Side Scrolling Game.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\obj\Debug\Side_Scrolling_Game.MainForm.resources
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\obj\Debug\Side_Scrolling_Game.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\obj\Debug\Side Scrolling Game.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\obj\Debug\Side Scrolling Game.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\obj\Debug\Side Scrolling Game.exe
+D:\INFORMATICA\C#\Games\Side Scrolling Game\Side Scrolling Game\obj\Debug\Side Scrolling Game.pdb

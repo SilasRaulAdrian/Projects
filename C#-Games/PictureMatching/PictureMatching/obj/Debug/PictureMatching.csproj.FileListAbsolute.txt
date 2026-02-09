@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\bin\Debug\PictureMatching.exe.config
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\bin\Debug\PictureMatching.exe
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\bin\Debug\PictureMatching.pdb
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\obj\Debug\PictureMatching.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\obj\Debug\PictureMatching.MainForm.resources
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\obj\Debug\PictureMatching.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\obj\Debug\PictureMatching.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\obj\Debug\PictureMatching.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\obj\Debug\PictureMatching.exe
+D:\INFORMATICA\C#\Games\PictureMatching\PictureMatching\obj\Debug\PictureMatching.pdb

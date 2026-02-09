@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\bin\Debug\Football Penalty Goal Shootout Game.exe.config
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\bin\Debug\Football Penalty Goal Shootout Game.exe
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\bin\Debug\Football Penalty Goal Shootout Game.pdb
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\obj\Debug\Football Penalty Goal Shootout Game.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\obj\Debug\Football_Penalty_Goal_Shootout_Game.MainForm.resources
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\obj\Debug\Football_Penalty_Goal_Shootout_Game.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\obj\Debug\Football Penalty Goal Shootout Game.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\obj\Debug\Football Penalty Goal Shootout Game.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\obj\Debug\Football Penalty Goal Shootout Game.exe
+D:\INFORMATICA\C#\Games\Football Penalty Goal Shootout Game\Football Penalty Goal Shootout Game\obj\Debug\Football Penalty Goal Shootout Game.pdb

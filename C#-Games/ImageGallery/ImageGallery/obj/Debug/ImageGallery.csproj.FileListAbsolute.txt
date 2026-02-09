@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\bin\Debug\ImageGallery.exe.config
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\bin\Debug\ImageGallery.exe
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\bin\Debug\ImageGallery.pdb
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\obj\Debug\ImageGallery.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\obj\Debug\ImageGallery.MainForm.resources
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\obj\Debug\ImageGallery.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\obj\Debug\ImageGallery.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\obj\Debug\ImageGallery.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\obj\Debug\ImageGallery.exe
+D:\INFORMATICA\C#\Games\ImageGallery\ImageGallery\obj\Debug\ImageGallery.pdb

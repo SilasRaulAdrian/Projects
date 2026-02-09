@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34009.444
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Play Multiple Sound File", "Play Multiple Sound File\Play Multiple Sound File.csproj", "{982C45BE-0DCC-4211-A80E-AE024D9569F9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{982C45BE-0DCC-4211-A80E-AE024D9569F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{982C45BE-0DCC-4211-A80E-AE024D9569F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{982C45BE-0DCC-4211-A80E-AE024D9569F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{982C45BE-0DCC-4211-A80E-AE024D9569F9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7E69337D-0629-4BC3-A356-FAA10DAE1D15}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\bin\Debug\OneLineJokes.exe.config
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\bin\Debug\OneLineJokes.exe
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\bin\Debug\OneLineJokes.pdb
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\obj\Debug\OneLineJokes.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\obj\Debug\OneLineJokes.MainForm.resources
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\obj\Debug\OneLineJokes.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\obj\Debug\OneLineJokes.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\obj\Debug\OneLineJokes.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\obj\Debug\OneLineJokes.exe
+D:\INFORMATICA\C#\Games\OneLineJokes\OneLineJokes\obj\Debug\OneLineJokes.pdb

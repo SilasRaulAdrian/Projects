@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\bin\Debug\BalloonPop.exe.config
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\bin\Debug\BalloonPop.exe
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\bin\Debug\BalloonPop.pdb
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\obj\Debug\BalloonPop.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\obj\Debug\BalloonPop.MainForm.resources
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\obj\Debug\BalloonPop.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\obj\Debug\BalloonPop.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\obj\Debug\BalloonPop.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\obj\Debug\BalloonPop.exe
+D:\INFORMATICA\C#\Games\BalloonPop\BalloonPop\obj\Debug\BalloonPop.pdb

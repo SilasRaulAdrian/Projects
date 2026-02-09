@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\bin\Debug\Guess The Word.exe.config
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\bin\Debug\Guess The Word.exe
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\bin\Debug\Guess The Word.pdb
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\obj\Debug\Guess The Word.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\obj\Debug\Guess_The_Word.MainForm.resources
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\obj\Debug\Guess_The_Word.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\obj\Debug\Guess The Word.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\obj\Debug\Guess The Word.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\obj\Debug\Guess The Word.exe
+D:\INFORMATICA\C#\Games\Guess The Word\Guess The Word\obj\Debug\Guess The Word.pdb

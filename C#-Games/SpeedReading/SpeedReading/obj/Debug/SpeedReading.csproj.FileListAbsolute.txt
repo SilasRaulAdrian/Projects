@@ -1,0 +1,12 @@
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\bin\Debug\SpeedReading.exe.config
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\bin\Debug\SpeedReading.exe
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\bin\Debug\SpeedReading.pdb
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.HelpWindow.resources
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.MainForm.resources
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.ReadingWindow.resources
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.exe
+D:\INFORMATICA\C#\Games\SpeedReading\SpeedReading\obj\Debug\SpeedReading.pdb

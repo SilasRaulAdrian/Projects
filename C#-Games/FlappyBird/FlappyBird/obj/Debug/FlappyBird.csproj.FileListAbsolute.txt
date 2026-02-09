@@ -1,0 +1,11 @@
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe.config
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\bin\Debug\FlappyBird.exe
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\bin\Debug\FlappyBird.pdb
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\obj\Debug\FlappyBird.MainForm.resources
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\obj\Debug\FlappyBird.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\obj\Debug\FlappyBird.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\obj\Debug\FlappyBird.exe
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\obj\Debug\FlappyBird.pdb
+D:\INFORMATICA\C#\Games\FlappyBird\FlappyBird\obj\Debug\FlappyBird.StartScreen.resources

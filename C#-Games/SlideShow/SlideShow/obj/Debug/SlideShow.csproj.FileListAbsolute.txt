@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\bin\Debug\SlideShow.exe.config
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\bin\Debug\SlideShow.exe
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\bin\Debug\SlideShow.pdb
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\obj\Debug\SlideShow.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\obj\Debug\SlideShow.MainForm.resources
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\obj\Debug\SlideShow.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\obj\Debug\SlideShow.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\obj\Debug\SlideShow.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\obj\Debug\SlideShow.exe
+D:\INFORMATICA\C#\Games\SlideShow\SlideShow\obj\Debug\SlideShow.pdb

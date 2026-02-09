@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\bin\Debug\HelicopterShooting.exe.config
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\bin\Debug\HelicopterShooting.exe
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\bin\Debug\HelicopterShooting.pdb
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\obj\Debug\HelicopterShooting.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\obj\Debug\HelicopterShooting.MainForm.resources
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\obj\Debug\HelicopterShooting.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\obj\Debug\HelicopterShooting.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\obj\Debug\HelicopterShooting.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\obj\Debug\HelicopterShooting.exe
+D:\INFORMATICA\C#\Games\HelicopterShooting\HelicopterShooting\obj\Debug\HelicopterShooting.pdb

@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe.config
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.pdb
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.MainForm.resources
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock_Paper_Scissors.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.exe
+D:\INFORMATICA\C#\Games\Rock Paper Scissors\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.pdb

@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\bin\Debug\Math's Quiz Game V2.exe.config
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\bin\Debug\Math's Quiz Game V2.exe
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\bin\Debug\Math's Quiz Game V2.pdb
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\obj\Debug\Math's Quiz Game V2.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\obj\Debug\Math_s_Quiz_Game_V2.MainForm.resources
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\obj\Debug\Math_s_Quiz_Game_V2.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\obj\Debug\Math's Quiz Game V2.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\obj\Debug\Math's Quiz Game V2.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\obj\Debug\Math's Quiz Game V2.exe
+D:\INFORMATICA\C#\Games\Math's Quiz Game V2\Math's Quiz Game V2\obj\Debug\Math's Quiz Game V2.pdb

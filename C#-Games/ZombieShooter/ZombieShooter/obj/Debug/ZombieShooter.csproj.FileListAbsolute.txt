@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\bin\Debug\ZombieShooter.exe.config
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\bin\Debug\ZombieShooter.exe
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\bin\Debug\ZombieShooter.pdb
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\obj\Debug\ZombieShooter.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\obj\Debug\ZombieShooter.MainForm.resources
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\obj\Debug\ZombieShooter.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\obj\Debug\ZombieShooter.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\obj\Debug\ZombieShooter.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\obj\Debug\ZombieShooter.exe
+D:\INFORMATICA\C#\Games\ZombieShooter\ZombieShooter\obj\Debug\ZombieShooter.pdb

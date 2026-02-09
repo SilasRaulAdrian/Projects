@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\bin\Debug\BattleShip.exe.config
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\bin\Debug\BattleShip.exe
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\bin\Debug\BattleShip.pdb
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\obj\Debug\BattleShip.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\obj\Debug\BattleShip.MainForm.resources
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\obj\Debug\BattleShip.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\obj\Debug\BattleShip.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\obj\Debug\BattleShip.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\obj\Debug\BattleShip.exe
+D:\INFORMATICA\C#\Games\BattleShip\BattleShip\obj\Debug\BattleShip.pdb

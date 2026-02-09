@@ -1,0 +1,15 @@
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.exe.config
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.exe
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\bin\Debug\MediaPlayer.pdb
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\bin\Debug\Interop.WMPLib.dll
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\bin\Debug\AxInterop.WMPLib.dll
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\Interop.WMPLib.dll
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\AxInterop.WMPLib.dll
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.csproj.ResolveComReference.cache
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.MainForm.resources
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.exe
+D:\INFORMATICA\C#\Games\MediaPlayer\MediaPlayer\obj\Debug\MediaPlayer.pdb

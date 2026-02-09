@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\bin\Debug\ColourSwitch.exe.config
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\bin\Debug\ColourSwitch.exe
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\bin\Debug\ColourSwitch.pdb
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\obj\Debug\ColourSwitch.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\obj\Debug\ColourSwitch.MainForm.resources
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\obj\Debug\ColourSwitch.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\obj\Debug\ColourSwitch.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\obj\Debug\ColourSwitch.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\obj\Debug\ColourSwitch.exe
+D:\INFORMATICA\C#\Games\ColourSwitch\ColourSwitch\obj\Debug\ColourSwitch.pdb

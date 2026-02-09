@@ -1,0 +1,11 @@
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\bin\Debug\Multiple Levels Game.exe.config
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\bin\Debug\Multiple Levels Game.exe
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\bin\Debug\Multiple Levels Game.pdb
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\obj\Debug\Multiple Levels Game.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\obj\Debug\Multiple_Levels_Game.Level1Form.resources
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\obj\Debug\Multiple_Levels_Game.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\obj\Debug\Multiple Levels Game.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\obj\Debug\Multiple Levels Game.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\obj\Debug\Multiple Levels Game.exe
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\obj\Debug\Multiple Levels Game.pdb
+D:\INFORMATICA\C#\Games\Multiple Levels Game\Multiple Levels Game\obj\Debug\Multiple_Levels_Game.Level2Form.resources

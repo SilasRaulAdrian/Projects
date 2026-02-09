@@ -1,0 +1,10 @@
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\bin\Debug\BinaryCalculatorQuizGame.exe.config
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\bin\Debug\BinaryCalculatorQuizGame.exe
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\bin\Debug\BinaryCalculatorQuizGame.pdb
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\obj\Debug\BinaryCalculatorQuizGame.csproj.AssemblyReference.cache
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\obj\Debug\BinaryCalculatorQuizGame.MainForm.resources
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\obj\Debug\BinaryCalculatorQuizGame.Properties.Resources.resources
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\obj\Debug\BinaryCalculatorQuizGame.csproj.GenerateResource.cache
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\obj\Debug\BinaryCalculatorQuizGame.csproj.CoreCompileInputs.cache
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\obj\Debug\BinaryCalculatorQuizGame.exe
+D:\INFORMATICA\C#\Games\BinaryCalculatorQuizGame\BinaryCalculatorQuizGame\obj\Debug\BinaryCalculatorQuizGame.pdb
