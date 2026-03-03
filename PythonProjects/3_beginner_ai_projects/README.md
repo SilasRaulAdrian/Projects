@@ -115,7 +115,7 @@ pip install langchain langchain-ollama langgraph streamlit PyPDF2 openai \
 ├── image-classifier/
 │   ├── app.py
 │   └── README.md
-└── README.md          ← You are here
+└── README.md          <- You are here
 ```
 
 ---
