@@ -1,73 +1,200 @@
-# React + TypeScript + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Lofi Study App
 
-Currently, two official plugins are available:
+## Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Lofi Study App is a relaxing web application designed to help users focus while studying, working, or relaxing.  
+The application allows users to play **lofi music**, **ambient sound effects**, and **background videos** to create a customizable study atmosphere.
 
-## React Compiler
+The project is built using **React + TypeScript** and follows a modular component-based architecture.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+# Features
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+- Play different **lofi music tracks**
+- Add **ambient sound effects** (rain, forest, fire, etc.)
+- Watch relaxing **background videos**
+- Control **volume**
+- Switch between different **music categories**
+- Combine music and ambient sounds for a personalized study environment
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+# How the Application Works
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The application is divided into several main components that work together.
+
+## 1. Video Background
+
+The **VideoPlayer component** displays relaxing background videos such as:
+
+- Rain scenes
+- Cozy study rooms
+- Fireplace environments
+- Nature landscapes
+
+Users can switch between different videos to change the atmosphere.
+
+Video files are stored inside:
+
+```
+src/assets/videos
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 2. Music Player
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+The **MusicPanel** manages the main background music.
+
+Music tracks are grouped into categories such as:
+
+- Lofi beats
+- Ambient music
+- Piano music
+- Nature soundtracks
+
+Music files are located in:
+
 ```
+src/assets/music
+```
+
+The player allows users to:
+
+- Play music
+- Pause music
+- Skip to the next track
+- Change music category
+
+---
+
+## 3. Ambient Sound Effects
+
+Users can add **ambient sound effects** on top of the music to improve focus.
+
+Examples:
+
+- Rain
+- Forest
+- Wind
+- Fire
+- Water stream
+- Traffic noise
+
+Each sound effect can be activated independently and has its own **volume control**.
+
+These are handled by:
+
+- `SfxControl`
+- `SfxControlPanel`
+
+Sound files are located in:
+
+```
+src/assets/sfx
+```
+
+---
+
+## 4. Player Controls
+
+The **PlayerControls component** handles basic playback functionality:
+
+- Play / Pause
+- Next track
+- Volume control
+
+This component interacts with the music state stored in the main application.
+
+---
+
+## 5. Data Configuration
+
+Music tracks, sound effects, and videos are organized using configuration files inside:
+
+```
+src/data
+```
+
+Examples:
+
+- `musicCategories.ts`
+- `sfxData.ts`
+- `videoCategoryData.ts`
+
+These files define:
+
+- Available tracks
+- File paths
+- Categories
+- Display information
+
+This makes the app easy to extend with new content.
+
+---
+
+# How to Run the Project
+
+### 1. Install dependencies
+
+```
+npm install
+```
+
+### 2. Start the development server
+
+```
+npm run dev
+```
+
+### 3. Open the application
+
+```
+http://localhost:5173
+```
+
+---
+
+# How to Use the Application
+
+1. Start the application in the browser.
+2. Choose a **background video** for the atmosphere.
+3. Select a **music category** and start playing a track.
+4. Add **ambient sound effects** such as rain or forest sounds.
+5. Adjust the **volume** for music and sound effects.
+6. Combine different sounds to create your ideal study environment.
+
+---
+
+# Technologies Used
+
+- React
+- TypeScript
+- Vite
+- HTML / CSS
+- Modular component architecture
+
+---
+
+# Possible Improvements
+
+- Add user playlists
+- Save user preferences
+- Add timer (Pomodoro mode)
+- Add more sound effects and music tracks
+- Mobile UI optimization
+- Dark/light theme toggle
+
+---
+
+# Purpose of the Project
+
+This project was created to practice:
+
+- React component architecture
+- TypeScript usage in frontend applications
+- Audio and video handling in the browser
+- State management in React
+- Building interactive user interfaces
