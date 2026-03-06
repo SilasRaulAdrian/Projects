@@ -1,4 +1,4 @@
-# 🔥 Firecrawl MCP Agent
+# Firecrawl MCP Agent
 
 A conversational AI agent that scrapes websites, crawls pages, and extracts web data — powered by Firecrawl, LangGraph, and a local Ollama model via MCP.
 
@@ -63,3 +63,4 @@ You: quit
 - Runs **fully locally** except for Firecrawl API calls
 - `temperature=0` for consistent, deterministic tool-use behavior
 - Input capped at 175,000 characters per message
+
