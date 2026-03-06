@@ -1,4 +1,4 @@
-# 🛠️ Developer Tools Research Agent
+# Developer Tools Research Agent
 
 An AI agent that researches, scrapes, and compares developer tools based on your query — powered by Firecrawl, LangGraph, and a local Ollama model.
 
@@ -95,3 +95,4 @@ Type `quit` or `exit` to stop.
 | `Workflow` | Orchestrates the 3-node LangGraph pipeline |
 | `CompanyAnalysis` | Structured LLM output (pricing, stack, APIs, etc.) |
 | `DeveloperToolsPrompts` | Prompt templates for extraction, analysis, recommendations |
+
