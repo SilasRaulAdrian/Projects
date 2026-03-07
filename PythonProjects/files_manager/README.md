@@ -8,7 +8,6 @@ A lightweight social media application that lets users register, log in, share i
 
 - [Overview](#overview)
 - [Tech Stack](#tech-stack)
-- [Project Structure](#project-structure)
 - [How It Works](#how-it-works)
   - [Authentication](#authentication)
   - [Uploading Media](#uploading-media)
