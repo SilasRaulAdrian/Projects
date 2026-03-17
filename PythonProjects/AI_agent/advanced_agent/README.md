@@ -63,20 +63,20 @@ python main.py
 ```
 
 ```
-🔍 Developer Tools Query: best open source database for SaaS apps
+Developer Tools Query: best open source database for SaaS apps
 
-📊 Results for: best open source database for SaaS apps
+Results for: best open source database for SaaS apps
 ============================================================
 
-1. 🏢 Supabase
-   🌐 Website: https://supabase.com
-   💰 Pricing: Freemium
-   📖 Open Source: True
-   🛠️  Tech Stack: PostgreSQL, REST, GraphQL
-   💻 Language Support: JavaScript, Python, Go
-   🔌 API: ✅ Available
-   🔗 Integrations: GitHub, Vercel, Docker
-   📝 Description: Open source Firebase alternative built on PostgreSQL
+1. Supabase
+   Website: https://supabase.com
+   Pricing: Freemium
+   Open Source: True
+   Tech Stack: PostgreSQL, REST, GraphQL
+   Language Support: JavaScript, Python, Go
+   API: Available
+   Integrations: GitHub, Vercel, Docker
+   Description: Open source Firebase alternative built on PostgreSQL
 
 Developer Recommendations:
 ----------------------------------------
