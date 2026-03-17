@@ -1,0 +1,152 @@
+.submit-container, 
+.submit-container *, 
+.submit-container *::before, 
+.submit-container *::after {
+  box-sizing: border-box !important;
+}
+
+.content-container {
+  max-width: 740px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-top: 69px;
+}
+
+.submit-container {
+  background: white;
+  border-radius: 4px;
+  border: 1px solid #edeff1;
+  padding: 20px;
+  width: 100%;
+}
+
+.submit-container h1 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0 0 16px 0;
+  color: #1a1a1b;
+  border-bottom: 1px solid #edeff1;
+  padding-bottom: 12px;
+}
+
+.submit-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  width: 100%;
+}
+
+.submit-title {
+  width: 100%;
+  padding: 10px 16px;
+  font-size: 14px;
+  font-weight: 400;
+  border: 1px solid #edeff1;
+  border-radius: 4px;
+  background-color: white;
+  color: #1c1c1c;
+  outline: none;
+}
+
+.submit-title:focus {
+  border-color: #1a1a1b;
+}
+
+.submit-title::placeholder {
+  color: #878a8c;
+}
+
+.media-input-container {
+  border: 1px solid #edeff1;
+  border-radius: 4px;
+  padding: 16px;
+  background-color: white;
+  width: 100%;
+}
+
+.image-upload-label {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 16px;
+  background-color: #f6f7f8;
+  border: 1px solid #edeff1;
+  border-radius: 999px;
+  cursor: pointer;
+  color: #1c1c1c;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.image-preview-container {
+  margin-top: 16px;
+  position: relative;
+  display: block;
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  min-height: 200px;
+  max-height: 400px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.image-preview {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  background-color: #f6f7f8;
+}
+
+.submit-body {
+  width: 100%;
+  min-height: 180px;
+  padding: 12px 16px;
+  font-size: 14px;
+  border: 1px solid #edeff1;
+  border-radius: 4px;
+  background-color: white;
+  color: #1c1c1c;
+  resize: vertical;
+  outline: none;
+}
+
+.submit-body:focus {
+  border-color: #1a1a1b;
+}
+
+.submit-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.back-button, .submit-button {
+  height: 32px;
+  padding: 0 16px;
+  border-radius: 999px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #0079d3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.2s;
+}
+
+.back-button {
+  background-color: transparent;
+  color: #0079d3;
+}
+
+.submit-button {
+  background-color: #0079d3;
+  color: white;
+}
+
+.back-button:disabled, .submit-button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
