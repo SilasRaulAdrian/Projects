@@ -1,0 +1,37 @@
+{
+  "videos": [
+    {
+      "id": "ca5e62c5-8551-4073-9a87-41e8e8bdb53f",
+      "title": "Ekitike",
+      "description": "nice vid",
+      "filePath": "/videos/ekitike_tTrCikUm6.mp4",
+      "fileName": "ekitike_tTrCikUm6.mp4",
+      "thumbnailPath": "/thumbnails/fox_OF1INSmw9.png",
+      "createdAt": "2026-03-18T09:48:45.592Z"
+    },
+    {
+      "id": "06c491a4-c74b-4f57-b59d-6f36d47b82f1",
+      "title": "test",
+      "description": "test",
+      "filePath": "/videos/ekitike_yxCwtP8_B.mp4",
+      "fileName": "ekitike_yxCwtP8_B.mp4",
+      "thumbnailPath": "",
+      "createdAt": "2026-03-18T09:56:59.808Z"
+    },
+    {
+      "id": "3e637621-0478-47db-8e5a-0110a4ce36cc",
+      "title": "wm test",
+      "description": "wm test",
+      "filePath": "/videos/ekitike_-hnEMKKOR.mp4",
+      "fileName": "ekitike_-hnEMKKOR.mp4",
+      "thumbnailPath": "",
+      "createdAt": "2026-03-18T10:10:43.669Z",
+      "watermark": {
+        "imagePath": "/watermarks/Screenshot_2026-02-07_000139_QxiVRb5iA.png",
+        "position": "bottom_right",
+        "opacity": 0.7,
+        "width": 120
+      }
+    }
+  ]
+}

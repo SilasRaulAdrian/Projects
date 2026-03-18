@@ -1,0 +1,72 @@
+.thumbnail-card {
+  background: #1f2937;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.thumbnail-image {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+}
+
+.thumbnail-info {
+  padding: 0.75rem;
+}
+
+.thumbnail-title {
+  font-weight: 500;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.thumbnail-date {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+.library-empty {
+  text-align: center;
+  padding: 3rem 0;
+}
+
+.library-empty-text {
+  color: #9ca3af;
+  margin-bottom: 1rem;
+}
+
+.library-upload-button {
+  background: #2563eb;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+.library-upload-button:hover {
+  background: #1d4ed8;
+}
+
+.library-grid {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 1.5rem;
+}
+
+@media (min-width: 640px) {
+  .library-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1024px) {
+  .library-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (min-width: 1280px) {
+  .library-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
