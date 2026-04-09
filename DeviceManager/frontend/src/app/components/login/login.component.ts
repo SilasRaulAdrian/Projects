@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
@@ -57,7 +57,7 @@ export class LoginComponent {
     loading = false
     errorMsg: string = '';
 
-    constructor(private fb: FormBuilder, private authService: AuthService, private router: Router) {
+    constructor(private fb: FormBuilder, private authService: AuthService, private router: Router, private cdr: ChangeDetectorRef) {
         this.form = this.fb.group({
             email: ['', [Validators.required, Validators.email]],
             password: ['', Validators.required]
@@ -76,9 +76,15 @@ export class LoginComponent {
         this.authService.login(this.form.value).subscribe({
             next: () => this.router.navigate(['/devices']),
             error: () => {
-                this.errorMsg = 'Invalid email or password.';
+                this.showError('Invalid email or password.');
                 this.loading = false;
             }
         });
+    }
+
+    private showError(msg: string): void {
+        this.errorMsg = msg;
+        this.cdr.detectChanges();
+        setTimeout(() => { this.errorMsg = ''; this.cdr.detectChanges(); }, 3000);
     }
 }
