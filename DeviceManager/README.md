@@ -51,7 +51,7 @@ sqlcmd -S localhost -E -i database/02_seed_data.sql
 
 Or open the files in **SQL Server Management Studio** and execute them.
 
-> ℹBoth scripts are **idempotent** — safe to run multiple times.
+> Both scripts are **idempotent** — safe to run multiple times.
 
 ---
 
