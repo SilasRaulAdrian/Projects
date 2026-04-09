@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { ChangeDetectorRef, Component } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { Router, RouterLink } from '@angular/router';
 import { CommonModule } from '@angular/common';
@@ -85,7 +85,7 @@ export class RegisterComponent {
     loading = false
     errorMsg: string = '';
 
-    constructor(private fb: FormBuilder, private authService: AuthService, private router: Router) {
+    constructor(private fb: FormBuilder, private authService: AuthService, private router: Router, private cdr: ChangeDetectorRef) {
         this.form = this.fb.group({
             name: ['', Validators.required],
             email: ['', [Validators.required, Validators.email]],
@@ -108,9 +108,15 @@ export class RegisterComponent {
         this.authService.register(this.form.value).subscribe({
             next: () => this.router.navigate(['/devices']),
             error: (err) => {
-                this.errorMsg = err.status === 409 ? 'Email is already registered.' : 'Registration failed.';
                 this.loading = false;
+                this.showError(err.status === 409 ? 'Email is already registered.' : 'Registration failed.');
             }
         });
+    }
+
+    private showError(msg: string): void {
+        this.errorMsg = msg;
+        this.cdr.detectChanges();
+        setTimeout(() => { this.errorMsg = ''; this.cdr.detectChanges(); }, 3000);
     }
 }

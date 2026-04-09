@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { Router } from '@angular/router';
 import { FormsModule } from '@angular/forms';
@@ -149,7 +149,8 @@ export class DeviceListComponent implements OnInit {
     constructor(
         private deviceService: DeviceService,
         private authService: AuthService,
-        private router: Router
+        private router: Router,
+        private cdr: ChangeDetectorRef
     ) {}
 
     ngOnInit(): void {
@@ -163,9 +164,10 @@ export class DeviceListComponent implements OnInit {
                 this.devices = data;
                 this.displayedDevices = data;
                 this.loading = false;
+                this.cdr.detectChanges();
             },
-            error: () => {
-                this.errorMsg = 'Failed to load devices.';
+            error: (err) => {
+                this.showError('Failed to load devices.');
                 this.loading = false;
             }
         });
@@ -182,9 +184,11 @@ export class DeviceListComponent implements OnInit {
             next: (data) => {
                 this.displayedDevices = data;
                 this.searching = false;
+                this.cdr.detectChanges();
             },
             error: () => {
                 this.searching = false;
+                this.cdr.detectChanges();
             }
         });
     }
@@ -211,9 +215,10 @@ export class DeviceListComponent implements OnInit {
     }
 
     onDeviceSaved(device: Device): void {
+        const wasEditing = this.editingDevice !== null;
         this.closeForm();
         this.loadDevices();
-        this.showSuccess(this.editingDevice ? 'Device updated.' : 'Device created.');
+        this.showSuccess(wasEditing ? 'Device updated.' : 'Device created.');
     }
 
     confirmDelete(device: Device): void {
@@ -232,13 +237,40 @@ export class DeviceListComponent implements OnInit {
             },
             error: () => {
                 this.deleting = false;
-                this.errorMsg = 'Failed to delete device.';
+                this.showError('Failed to delete device.');
             }
+        });
+    }
+
+    assignDevice(device: Device): void {
+        this.deviceService.assign(device.id!).subscribe({
+            next: (updatedDevice) => {
+                device.assignedToUserName = updatedDevice.assignedToUserName;
+                this.showSuccess('Device assigned to you.');
+            },
+            error: () => this.showError('Failed to assign device.')
+        });
+    }
+
+    unassignDevice(device: Device): void {
+        this.deviceService.unassign(device.id!).subscribe({
+            next: (updatedDevice) => {
+                device.assignedToUserName = updatedDevice.assignedToUserName;
+                this.showSuccess('Device unassigned successfully.');
+            },
+            error: () => this.showError('Failed to unassign device.')
         });
     }
 
     private showSuccess(msg: string): void {
         this.successMsg = msg;
-        setTimeout(() => this.successMsg = '', 3000);
+        this.cdr.detectChanges();
+        setTimeout(() => { this.successMsg = ''; this.cdr.detectChanges(); }, 3000);
+    }
+
+    private showError(msg: string): void {
+        this.errorMsg = msg;
+        this.cdr.detectChanges();
+        setTimeout(() => { this.errorMsg = ''; this.cdr.detectChanges(); }, 3000);
     }
 }

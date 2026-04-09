@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { ChangeDetectorRef, Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 import { CommonModule } from '@angular/common';
 import { Device } from '../../models/models';
@@ -153,7 +153,8 @@ export class DeviceDetailComponent implements OnInit {
         private route: ActivatedRoute,
         private router: Router,
         private deviceService: DeviceService,
-        private authService: AuthService
+        private authService: AuthService,
+        private cdr: ChangeDetectorRef
     ) {}
     
     get currentUserId(): number | undefined {
@@ -178,9 +179,11 @@ export class DeviceDetailComponent implements OnInit {
             next: (d) => {
                 this.device = d;
                 this.loading = false;
+                this.cdr.detectChanges();
             },
             error: () => {
                 this.loading = false;
+                this.cdr.detectChanges();
             }
         });
     }
@@ -205,7 +208,7 @@ export class DeviceDetailComponent implements OnInit {
             },
             error: () => {
                 this.assigning = false;
-                this.errorMsg = 'Could not assign device.';
+                this.showError('Failed to assign device.');
             }
         });
     }
@@ -220,7 +223,7 @@ export class DeviceDetailComponent implements OnInit {
             },
             error: () => {
                 this.assigning = false;
-                this.errorMsg = 'Could not unassign device.';
+                this.showError('Failed to unassign device.');
             }
         });
     }
@@ -234,7 +237,7 @@ export class DeviceDetailComponent implements OnInit {
             },
             error: () => {
                 this.deleting = false;
-                this.errorMsg = 'Failed to delete.';
+                this.showError('Failed to delete device.');
             }
         });
     }
@@ -242,11 +245,21 @@ export class DeviceDetailComponent implements OnInit {
     private reload(): void {
         this.assigning = false;
         const id = this.device!.id;
-        this.deviceService.getById(id).subscribe(d => this.device = d);
+        this.deviceService.getById(id).subscribe(d => {
+            this.device = d;
+            this.cdr.detectChanges();
+        });
     }
 
     private showSuccess(msg: string): void {
         this.successMsg = msg;
-        setTimeout(() => this.successMsg = '', 3000);
+        this.cdr.detectChanges();
+        setTimeout(() => { this.successMsg = ''; this.cdr.detectChanges(); }, 3000);
+    }
+
+    private showError(msg: string): void {
+        this.errorMsg = msg;
+        this.cdr.detectChanges();
+        setTimeout(() => { this.errorMsg = ''; this.cdr.detectChanges(); }, 3000);
     }
 }
