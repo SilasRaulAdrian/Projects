@@ -1,4 +1,4 @@
-import { Component, EventEmitter, Input, OnChanges, OnInit, Output } from '@angular/core';
+import { ChangeDetectorRef, Component, EventEmitter, Input, OnChanges, OnInit, Output } from '@angular/core';
 import { FormBuilder, FormGroup, ReactiveFormsModule, Validators } from '@angular/forms';
 import { CommonModule } from '@angular/common';
 import { Device } from '../../models/models';
@@ -112,7 +112,7 @@ export class DeviceFormComponent implements OnInit, OnChanges {
     generatingDesc = false;
     errorMsg: string = '';
 
-    constructor(private fb: FormBuilder, private deviceService: DeviceService) {}
+    constructor(private fb: FormBuilder, private deviceService: DeviceService, private cdr: ChangeDetectorRef) {}
 
     ngOnInit(): void {
         this.buildForm();
@@ -150,9 +150,11 @@ export class DeviceFormComponent implements OnInit, OnChanges {
             next: (res) => {
                 this.form.patchValue({ description: res.description });
                 this.generatingDesc = false;
+                this.cdr.detectChanges();
             },
             error: () => {
                 this.generatingDesc = false;
+                this.cdr.detectChanges();
             }
         });
     }
@@ -170,10 +172,11 @@ export class DeviceFormComponent implements OnInit, OnChanges {
             next: (device) => {
                 this.loading = false;
                 this.saved.emit(device);
+                this.cdr.detectChanges();
             },
             error: (err) => {
                 this.loading = false;
-                this.errorMsg = err.status === 409 ? 'A device with this name already exists.' : 'Failed to save device.';
+                this.showError(err.status === 409 ? 'A device with this name already exists.' : 'Failed to save device.');
             }
         });
     }
@@ -186,5 +189,11 @@ export class DeviceFormComponent implements OnInit, OnChanges {
         if ((event.target as HTMLElement).classList.contains('modal-overlay')) {
             this.cancel();
         }
+    }
+
+    private showError(msg: string): void {
+        this.errorMsg = msg;
+        this.cdr.detectChanges();
+        setTimeout(() => { this.errorMsg = ''; this.cdr.detectChanges(); }, 3000);
     }
 }
